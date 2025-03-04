@@ -4,7 +4,3 @@ body{
     background-color: white;
 }
 
-input::placeholder{
-    padding-left: 15px;
-    
-}
