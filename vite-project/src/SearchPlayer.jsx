@@ -145,27 +145,27 @@ function SearchPlayer() {
                             </div>
 
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                                <div className="bg-gray-50 p-4 rounded-lg">
-                                    <p className="text-sm text-gray-500">Jogos</p>
+                                <div className="bg-gray-100 p-4 rounded-lg">
+                                    <p className="text-sm text-gray-500">Jogos 👟</p>
                                     <p className="text-2xl font-bold">{playerData.statistics.games.appearences}</p>
                                 </div>
-                                <div className="bg-gray-50 p-4 rounded-lg">
-                                    <p className="text-sm text-gray-500">Gols</p>
+                                <div className="bg-gray-100 p-4 rounded-lg">
+                                    <p className="text-sm text-gray-500">Gols ⚽</p>
                                     <p className="text-2xl font-bold">{playerData.statistics.goals.total}</p>
                                 </div>
-                                <div className="bg-gray-50 p-4 rounded-lg">
-                                    <p className="text-sm text-gray-500">Assistências</p>
+                                <div className="bg-gray-100 p-4 rounded-lg">
+                                    <p className="text-sm text-gray-500">Assistências 🤜🤛</p>
                                     <p className="text-2xl font-bold">{playerData.statistics.goals.assists || 0}</p>
                                 </div>
-                                <div className="bg-gray-50 p-4 rounded-lg">
-                                    <p className="text-sm text-gray-500">Cartões Amarelos</p>
+                                <div className="bg-gray-100 p-4 rounded-lg">
+                                    <p className="text-sm text-gray-500">Cartões Amarelos 🟨</p>
                                     <p className="text-2xl font-bold">{playerData.statistics.cards.yellow}</p>
                                 </div>
-                                <div className="bg-gray-50 p-4 rounded-lg">
-                                    <p className="text-sm text-gray-500">Cartões Vermelhos</p>
+                                <div className="bg-gray-100 p-4 rounded-lg">
+                                    <p className="text-sm text-gray-500">Cartões Vermelhos 🟥</p>
                                     <p className="text-2xl font-bold">{playerData.statistics.cards.red}</p>
                                 </div>
-                                <div className="bg-gray-50 p-4 rounded-lg">
+                                <div className="bg-gray-100 p-4 rounded-lg">
                                     <p className="text-sm text-gray-500">Nota Média</p>
                                     <p className="text-2xl font-bold">{formatRating(playerData.statistics.games.rating)}</p>
                                 </div>
